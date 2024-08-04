@@ -1,0 +1,45 @@
+/* Reset default browser styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Basic styling for common elements */
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .m-0 {
+    margin: 0;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
